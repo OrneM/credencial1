@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #fafafa;
+  }
+  
+ 
+.card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgba(247, 75, 147, 0.801);
+    border: 0.2em solid rgb(131, 7, 69);
+    border-radius: 1.5em;
+  }
+  
+.card header {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+    background-size: 50px;
+
+  }
+  
+.card footer {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    background-size:  100px;
+  }
+  
+.card article img {
+   /* width: 100px; height: 100px;*/
+    max-height: 100%;
+    float: right;
+    
+ 
+  }
+
+  h2{ 
+    font-size: 1.250em;
+    line-height:normal;
+    margin-left: 20px;
+    
+  }
+
+  p {
+    font-size: 0.9375em;
+    color: blanchedalmond;
+ 
+  }
+
+  .pie{
+    color: black;
+    margin-left: 20px;
+    font-size: 0.9375em;
+
+  }
+
+  article {
+    padding: 10%;
+    height: 7.5em;
+    background-color: black;
+    opacity: 90%;
+    
+  }
